@@ -1,0 +1,62 @@
+/* MarkdownEditor.css */
+
+.fancy-editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .editor-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .editor-title {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .markdown-textarea-full-width {
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    height: calc(100vh - 40px); /* Adjust the height as needed */
+    /* Additional styling as needed */
+  }
+  
+  .markdown-preview {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #333;
+    /* Additional styling as needed */
+  }
+  
+  .button-container {
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
